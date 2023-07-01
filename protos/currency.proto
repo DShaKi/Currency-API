@@ -12,5 +12,5 @@ message RateRequest {
 }
 
 message RateResponse {
-    float Rete = 1;
+    float Rate = 1;
 }
