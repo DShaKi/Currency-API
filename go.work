@@ -1,0 +1,5 @@
+go 1.20
+
+use ./
+use ./protos/currency/github.com/DShaKi/Currency-API/protos/currency
+use ./server
