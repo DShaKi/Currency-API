@@ -2,7 +2,10 @@ module github.com/DShaKi/Currency-API/server
 
 go 1.20
 
-require github.com/hashicorp/go-hclog v1.5.0
+require (
+	github.com/everapihq/freecurrencyapi-go v0.1.0
+	github.com/hashicorp/go-hclog v1.5.0
+)
 
 require (
 	github.com/fatih/color v1.13.0 // indirect
