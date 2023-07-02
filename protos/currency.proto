@@ -4,6 +4,7 @@ option go_package = "github.com/DShaKi/Currency-API/protos/currency";
 
 service Currency {
     rpc GetRate(RateRequest) returns (RateResponse);
+    rpc SubscribeRate(stream RateRequest) returns (stream RateResponse);
 }
 
 message RateRequest {
